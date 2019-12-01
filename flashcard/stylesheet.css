@@ -1,5 +1,8 @@
 body {
-	background: #3C5377;
+    background: yellow;
+    background: url(images/es6.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
 }
 
 .flip-container {
@@ -49,8 +52,8 @@ body {
     border-radius: 10px;
     backface-visibility: hidden;
     overflow: hidden;
-    background: #ffc728;
-    color: #000;
+    background:rgb(87, 7, 7);
+    color: gray;
 }
 
 .flip-container .back {
@@ -62,8 +65,12 @@ body {
     border-radius: 10px;
     backface-visibility: hidden;
     overflow: hidden;
-    background: #fafafa;
-    color: #333;
+    background: darkgrey;
+    color:rgb(87, 7, 7);
     text-align: center;
     transform: rotateY(180deg);
+}
+
+.pic{
+    background-image: bottom;
 }
