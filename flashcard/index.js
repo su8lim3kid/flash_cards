@@ -1,3 +1,9 @@
+
+/*not Dry code but i had trouble puting under 
+one function without messing up the other cards*/
+
+
+
 var card = document.getElementById('card');
 
 card.addEventListener('dblclick', function() {
@@ -44,16 +50,10 @@ card.addEventListener('dblclick', function() {
 	}
 });
 // Delete function under construction
-
-/*function myFunction(){
-	var element = document.getElementById("aaa");
-	element.classList.remove("flip-container");
-	element = document.getElementById("card");
-	element.classList.remove("flipper")
-	element = document.getElementById("myP");
-	element.classList.remove("front");
-	element = document.getElementById("myP");
-	element.classList.remove("back")
-
+/* function myFunction() {
+	
+	let classesToAdd = ['flip-container', 'flipper', 'front', 'back'];
+	div.classList.add(...classesToAdd);
+   delete ("...classesToAdd")
 }
-*/
+	*/
