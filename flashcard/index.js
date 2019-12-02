@@ -43,4 +43,17 @@ card.addEventListener('dblclick', function() {
 		this.classList.add('off');
 	}
 });
+// Delete function under construction
 
+/*function myFunction(){
+	var element = document.getElementById("aaa");
+	element.classList.remove("flip-container");
+	element = document.getElementById("card");
+	element.classList.remove("flipper")
+	element = document.getElementById("myP");
+	element.classList.remove("front");
+	element = document.getElementById("myP");
+	element.classList.remove("back")
+
+}
+*/
